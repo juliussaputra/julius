@@ -1,2 +1,2 @@
 # julius
-extension theme for moodle boose
+extension theme for moodle boost 4.0
