@@ -1,4 +1,19 @@
 //post is useful for individual rules
-#page-content {
-    background-color: aqua;
+#page-footer {
+    background: #4b92a4;
+    a{
+        color:white;
+        text-decoration: underline;
+    }
+    .third_footer{
+        background-color: white;
+    }
+    .footer_social_block{
+        margin: 2px 2px;
+        a.btn{
+            min-width: 44px;
+            background: #a6821f;
+            border: none;
+        }
+    }
 }

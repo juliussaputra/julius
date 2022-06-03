@@ -1,0 +1,69 @@
+<footer id="page-footer" class="footer-popover text-light pt-3">
+
+    <div id="footer-fhgr" class="container-fluid">
+        <div class="row px-5">
+            <div class="col-md-6 ">
+                <h5>Über Moodle</h5>
+                {{# output.page_doc_link }}
+                    <p class="helplink">{{{ output.page_doc_link }}}</p>
+                {{/ output.page_doc_link }}
+                {{{ output.login_info }}}
+                <div class="tool_usertours-resettourcontainer"></div>
+                {{{ output.home_link }}}
+                <p><a href="https://www.fhgr.ch/datenschutzverordnung/">Datenschutzverordnung</a></p>
+                <nav class="nav navbar-nav d-md-none" aria-label="{{#str}}custommenu, admin{{/str}}">
+                    {{# output.custom_menu_flat }}
+                        <ul class="list-unstyled pt-3">
+                            {{> theme_boost/custom_menu_footer }}
+                        </ul>
+                    {{/ output.custom_menu_flat }}
+                </nav>
+                {{{ output.standard_footer_html }}}
+                {{{ output.standard_end_of_body_html }}}
+            </div>
+            <div class="col-md-6 ">
+              {{! fhgr }}
+                <div class="footer_box">
+                    <h5 class="">Über die Fachhochschule Graubünden</h5>
+                    <p class="bodytext"> Die <a href="https://www.fhgr.ch/fh-graubuenden/ueber-die-fh-graubuenden/wer-sind-wir/zahlen-fakten-organigramm/" target="_blank" title="Opens internal link in current window" class="internal-link">Fachhochschule Graubünden</a> bietet Bachelor- und Masterangebote, Weiterbildungen sowie angewandte Forschung und Dienstleistungen.</p>
+                    <div id="footer_social">
+                        <div class="footer_social_block">
+                          <a href="https://instagram.com/fachhochschule.graubuenden" target="_blank" class="btn btn-primary ripple"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                          <a href="https://www.facebook.com/fachhochschule.graubuenden" target="_blank" class="btn btn-primary ripple"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                          <a href="https://www.twitter.com/fh_graubuenden" target="_blank" class="btn btn-primary ripple"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                          <a href="https://www.youtube.com/htwchur1000" target="_blank" class="btn btn-primary ripple"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="footer_social_block">
+                          <a href="https://www.snapchat.com/add/fachhochschule.graubuenden" target="_blank" class="btn btn-primary ripple"><i class="fa fa-snapchat-ghost" aria-hidden="true"></i></a>
+                          <a href="https://www.flickr.com/htwchur" target="_blank" class="btn btn-primary"><i class="fa fa-flickr" aria-hidden="true"></i></a>
+                          <a href="https://www.xing.com/companies/hochschulef%2525C3%25259Crtechnikundwirtschafthtwchur" target="_blank" class="btn btn-primary"><i class="fa fa-xing" aria-hidden="true"></i></a>
+                          <a href="https://www.linkedin.com/edu/school?id=372031" target="_blank" class="btn btn-primary"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row third_footer py-2">
+            <div class="col-md-6 text-center">
+                <a href="http://www.swissuniversities.ch" target="_blank"><img src="https://moodle.fhgr.ch/fhgr/pix/swissuni.png"></a>
+            </div>
+            <div class="col-md-6 text-center">
+                <a href="http://www.graubuenden.ch" target="_blank"><img src="https://moodle.fhgr.ch/fhgr/pix/graubuenden_2013_de.png"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-content-debugging footer-dark bg-dark text-light">
+        <div class="container-fluid footer-dark-inner">
+            {{{ output.debug_footer_html }}}
+        </div>
+    </div>
+</footer>
+{{#js}}
+require(['theme_boost/footer-popover'], function(FooterPopover) {
+    FooterPopover.init();
+});
+{{/js}}
