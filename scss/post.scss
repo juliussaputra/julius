@@ -17,3 +17,30 @@
         }
     }
 }
+
+#page-login-index {
+    #page-footer{
+        display: none;
+    }
+}
+
+/*------------------------------------
+  Login page
+  -------------------------------------*/
+
+  /* Dropdown manuelles login -- FHGR */
+  #dropdown-loginmenu.show {
+    display: contents;
+}
+
+.login-form-submit{
+    button {
+        display: block;
+    }
+}
+
+/* Login logo for corporate design -- FHGR */
+#loginlogoheader.card-header {
+    background-color: #fff;
+    padding: 3rem;
+}

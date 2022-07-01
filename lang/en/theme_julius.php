@@ -19,7 +19,8 @@ $string['brandcolor_desc'] = 'The accent colour.';
 // Name of the settings pages.                                                                                                      
 $string['configtitle'] = 'Julius settings';                                                                                          
 // Name of the first settings tab.                                                                                                  
-$string['generalsettings'] = 'General settings';                                                                                                                                                                                     
+$string['generalsettings'] = 'General settings';
+$string['manuallogin'] = "Manual Login";                                                                                                                                                                                  
 // Preset files setting.                                                                                                            
 $string['presetfiles'] = 'Additional theme preset files';                                                                           
 // Preset files help text.                                                                                                          
