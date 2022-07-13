@@ -20,6 +20,8 @@ $string['brandcolor_desc'] = 'The accent colour.';
 $string['configtitle'] = 'Julius settings';                                                                                          
 // Name of the first settings tab.                                                                                                  
 $string['generalsettings'] = 'General settings';
+$string['introaai'] = 'Select your Home Organisation to log in';
+$string['loginbutton'] = 'Go'; 
 $string['manuallogin'] = "Manual Login";                                                                                                                                                                                  
 // Preset files setting.                                                                                                            
 $string['presetfiles'] = 'Additional theme preset files';                                                                           

@@ -4,5 +4,6 @@
 // This line protects the file from being accessed by a URL directly.                                                               
 defined('MOODLE_INTERNAL') || die();     
 
+$string['introaai'] = 'Anmelden über';
 $string['manuallogin'] = "Manuelles Login"; 
 $string['loginbutton'] = 'Anmelden'; 
