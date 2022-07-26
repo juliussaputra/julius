@@ -27,6 +27,12 @@
 /*------------------------------------
   Login page
   -------------------------------------*/
+  /* Background image -- FHGR */
+  #page-login-index {
+    #page{
+        background: url([[pix:theme|LoginRheinSchlucht@whilenotworking]]);
+    }
+  }
 
   /* Dropdown manuelles login -- FHGR */
   #dropdown-loginmenu.show {
