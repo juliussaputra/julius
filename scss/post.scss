@@ -28,12 +28,14 @@
   Login page
   -------------------------------------*/
   /* Background image -- FHGR */
-  #page-login-index {
-    #page{
-        background: url([[pix:theme|LoginRheinSchlucht@whilenotworking]]);
-    }
+  @media screen and (min-width: 600px){
+    #page-login-index {
+        #page{
+            background: url([[pix:theme|login_whilenotworking]]);
+        }
+      }    
   }
-
+  
   /* Dropdown manuelles login -- FHGR */
   #dropdown-loginmenu.show {
     display: contents;
