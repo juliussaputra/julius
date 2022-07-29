@@ -32,6 +32,8 @@
     #page-login-index {
         #page{
             background: url([[pix:theme|login_whilenotworking]]);
+            background-size: cover;
+            background-repeat: no-repeat;
         }
       }    
   }
